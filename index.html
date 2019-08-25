@@ -3,110 +3,85 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RJ Pupunu Bootstrap Portfolio</title>
     <link rel="shortcut icon" href="favicon.ico">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
 </head>
 
 <body>
-    <header id="masthead">
-         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="index.html">
-                    <span id="logo">RJ Pupunu</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
+      <!-- HEADER -->
+      <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-expand-md bg-white fixed-top navbar-light bg-light py-0" id="masthead">
+                            <div class="container p-0">
+                                <a class="navbar-brand py-0 col-xs-12" href="#">
+                                    <!--Logo-->
+                                    <span id="logo">RJ Pupunu</span>
+                                </a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+    
+                                </button>
+    
+                                <div class="collapse navbar-collapse col-xs-12" id="navbarSupportedContent">
+                                    <!--Right Side Links-->
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item pr-2">
+                                            <a class="nav-link" href="index.html">About
+    
+                                            </a>
+                                        </li>
+                                        <li class="nav-item pr-2 pl-2 border-left">
+                                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                        </li>
+                                        <li class="nav-item pl-2 border-left">
+                                            <a class="nav-link pr-0" href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
-            </nav>
-        </header>
-    <br>
-
-<!-- MAIN CONTAINER -->
-<div class="container">
-    <div class="row">
-        <div class="col-md-8">
+            </header>
+        </div>
+    <!-- MAIN BODY -->
+    <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="card">    
-                <div class="card-body">
-                    <h1 class="card-title">About Me</h1>
-                    <div class="image-wrapper float-left pr-1">
-                            <img src="Assets/images/Family.jpg" class="card-img-top" alt="family pic">
+                    <div id="main-container" class="container">
+                        <section class="main-section">
+                            <h1>About Me</h1>
+                            <img src="assets/images/Family.jpg" class="auth-image" alt="Family Pic" style="float:left">
+    
+                            <p>Richard "RJ" Pupunu was born and raised in Salt Lake City, Utah. He attended Catholic school most his life. After graduating from Judge Memorial in 2000, he moved to Tempe, AZ where he completed both his undergrad degrees and his MBA at Arizona State University. He holds an MBA in International Business Management and dual bachelors in Chemistry and Business Management.
+                            </p>
+                            <p>In 2006 he moved back to Utah to start his first company Alpine Auto Transporters, a transportation software company that provided car dealerships and auctions nationwide with real time tracking for all their vehicles bought and sold outside their home states. After partnering with eBay Motors for a number of years, he went on to sell the company to DealerTrack in 2013. Since then, RJ has had his hand in countless projects, founding multiple companies across a wide variety of industries, and in 2013 his accomplishments were recognized by Utah Business Magazine. In February 2013 he was a recipient of their <a href="http://dev.utahbusiness.com/articles/view/forty_under_3/?pg=7" target="_blank">40 Under 40 Award</a>.
+                            </p>
+                            <p>RJ now resides in Daybreak South Jordan, UT with his wife Natalie, their twins Nomi and Kingston, and their Frenchie Steve. He enjoys golf and pretty much any activity that requires being active and spending time with his family.
+                            </p>
+                        </section>
                     </div>
-                    
-                    <p class="card-text-wrap">Richard "RJ" Pupunu was born and raised in Salt Lake City, Utah. He
-                        attended Catholic school most his life. After graduating from Judge Memorial in 2000, he
-                        moved to Tempe, AZ where he completed both his undergrad degrees and his MBA at Arizona
-                        State University. He holds an MBA in International Business Management and dual bachelors in
-                        Chemistry and Business Management. </p>
-
-                    <p class="card-text">In 2006 he moved back to Utah to start his first company Alpine Auto
-                        Transporters, a transportation software company that provided car dealerships and auctions
-                        nationwide with real time tracking for all their vehicles bought and sold outside their home
-                        states. After partnering with eBay Motors for a number of years, he went on to sell the
-                        company to DealerTrack in 2013. Since then, RJ has had his hand in countless projects,
-                        founding multiple companies across a wide variety of industries, and in 2013 his
-                        accomplishments were recognized by Utah Business Magazine. In February 2013 he was a
-                        recipient of their <a href="http://dev.utahbusiness.com/articles/view/forty_under_3/?pg=7"
-                            target="_blank">40 Under 40 Award</a>.</p>
-
-                    <p>RJ now resides in Daybreak South Jordan, UT with his wife Natalie, their twins Nomi and
-                        Kingston, and their Frenchie Steve. He enjoys golf and pretty much any activity that
-                        requires being active and spending time with his family. </p>
                 </div>
             </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title" style="align-content: center">Connect With Me</h1>
-                </div>
-            </div>
-        </div>
-        </div>
-    </div>
-
-        <!-- <section class="sidebar">
-            <div id="connect">
-                <h2>Connect With Me</h2>
-                <div id="socialbox">
-                    <a href="https://github.com/rpupunu" target="_blank">
-                        <img src="assets/images/githubicon.png" class="social" alt="github">
-                    </a>
-                    <a href="https://linkedin.com/in/rjpupunu" target="_blank">
-                        <img src="assets/images/linkedinicon.png" class="social" alt="linkedin">
-                    </a>
-                    <a href="https://utah.bootcampcontent.com/rjpupunu" target="_blank">
-                        <img src="assets/images/gitlab.png" class="social" alt="gitlab">
-                    </a>
-                </div>
-            </div>
-        </section> -->
-</div>
-        <footer>
-            <div class="container">
-                <p>Copyright&copy; RJ Pupunu</p>
-            </div>
-        </footer>
+        </div> 
 </body>
+<!-- footer will go here -->
+<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    &copy; Copyright
+                </div>
+            </div>
+        </div>
+    </footer>  
 
 </html>
